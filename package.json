@@ -1,0 +1,15 @@
+{
+  "name": "stone-paper-scissor",
+  "version": "1.0.0",
+  "description": "Simple stone paper scissor game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aditya Sankhla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
