@@ -19,6 +19,22 @@ header{
 
     margin: 2vw;
 }
+.tool{
+
+    width: 10%;
+    height: 20%;
+    margin: 3vw;
+}
+.play{
+    display: flex;
+     justify-content: center;
+  text-align: center;
+}
+
+.select{
+    width: 7%;
+    height: 10%
+}
 
 
 

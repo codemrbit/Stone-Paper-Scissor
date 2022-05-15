@@ -11,16 +11,26 @@
     <main>
 
     <header> <h1 id="title">Stone-Paper-Scissor</h1></header>
-
+    
+    <div class="choice">
+      <img id="stone"class="select " src="/images/Stone.svg" alt- "stone">
+      <img id="paper"class="select " src="/images/paper.svg" alt="paper">
+      <img id="scissor" class="select " src="/images/scissor.svg" alt="scissor">
+     
+      
+    </div>
     <div class="players">
         <h2>Player 1</h2>
         <h2>Player 2</h2>
     </div>
+
+    
     <div class="play">
 
-     <h2>Stone</h2>
-     <h2>Paper</h2>
-     <h2>Scissor</h2>
+
+
+     <!-- <img  class="tool" src="/images/paper.svg" alt="paper"> -->
+     <img id="tools " class="tool" src="/images/Stone.svg" alt-"stone">
 
     </div>
 
@@ -31,10 +41,13 @@
 
     <div class="refresh"> 
 
-        <button type="button" id="btn">Refresh</button> 
+        <button onclick="hocl()" type="button" class="btn">Throw</button> 
     </div>
 
 
     </main> 
+
+    <script src="/js/index.js"></script>
+
 </body>
 </html>
